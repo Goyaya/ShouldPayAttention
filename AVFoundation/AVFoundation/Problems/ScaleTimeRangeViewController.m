@@ -61,6 +61,8 @@
     
     AVMutableComposition *mixComposition = [self buildComposition];
     AVPlayerItem *playerItem = [[AVPlayerItem alloc] initWithAsset:mixComposition];
+    // Fix: #2 ref: https://stackoverflow.com/questions/17269531/scaletimerange-has-no-effect-on-audio-type-avmutablecompositiontrack
+    playerItem.audioTimePitchAlgorithm = AVAudioTimePitchAlgorithmVarispeed;
     
     [self playItem:playerItem];
 }
@@ -86,6 +88,10 @@
     exporter.outputURL=outPutVideoUrl;
     exporter.outputFileType = AVFileTypeMPEG4;
     exporter.shouldOptimizeForNetworkUse = YES;
+    
+    // Fix: #2 ref: https://stackoverflow.com/questions/17269531/scaletimerange-has-no-effect-on-audio-type-avmutablecompositiontrack
+    exporter.audioTimePitchAlgorithm = AVAudioTimePitchAlgorithmVarispeed;
+    
     [exporter exportAsynchronouslyWithCompletionHandler:^{
         NSLog(@"done with error: %@", exporter.error);
         dispatch_async(dispatch_get_main_queue(), ^{
