@@ -14,8 +14,8 @@
 		D65F563C2419F21600D8F2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65F563A2419F21600D8F2FE /* LaunchScreen.storyboard */; };
 		D65F563F2419F21600D8F2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F563E2419F21600D8F2FE /* main.m */; };
 		D65F56482419F3F200D8F2FE /* AudioMixVolumeRampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F56472419F3F200D8F2FE /* AudioMixVolumeRampViewController.m */; };
-		D65F564B2419F54A00D8F2FE /* inputfile.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D65F564A2419F54A00D8F2FE /* inputfile.mp4 */; };
 		D65F564E2419F7D600D8F2FE /* ScaleTimeRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F564D2419F7D600D8F2FE /* ScaleTimeRangeViewController.m */; };
+		D65F5650241A0E0D00D8F2FE /* inputfile.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D65F564F241A0E0D00D8F2FE /* inputfile.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		D65F563E2419F21600D8F2FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D65F56462419F3F200D8F2FE /* AudioMixVolumeRampViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioMixVolumeRampViewController.h; sourceTree = "<group>"; };
 		D65F56472419F3F200D8F2FE /* AudioMixVolumeRampViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioMixVolumeRampViewController.m; sourceTree = "<group>"; };
-		D65F564A2419F54A00D8F2FE /* inputfile.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = inputfile.mp4; path = "../../../AVFoundation-AudioMix/AVFoundation-AudioMix/inputfile.mp4"; sourceTree = "<group>"; };
 		D65F564C2419F7D600D8F2FE /* ScaleTimeRangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleTimeRangeViewController.h; sourceTree = "<group>"; };
 		D65F564D2419F7D600D8F2FE /* ScaleTimeRangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleTimeRangeViewController.m; sourceTree = "<group>"; };
+		D65F564F241A0E0D00D8F2FE /* inputfile.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = inputfile.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		D65F56492419F52400D8F2FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D65F564A2419F54A00D8F2FE /* inputfile.mp4 */,
+				D65F564F241A0E0D00D8F2FE /* inputfile.mp4 */,
 				D65F56382419F21600D8F2FE /* Assets.xcassets */,
 				D65F563A2419F21600D8F2FE /* LaunchScreen.storyboard */,
 			);
@@ -157,7 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65F564B2419F54A00D8F2FE /* inputfile.mp4 in Resources */,
+				D65F5650241A0E0D00D8F2FE /* inputfile.mp4 in Resources */,
 				D65F563C2419F21600D8F2FE /* LaunchScreen.storyboard in Resources */,
 				D65F56392419F21600D8F2FE /* Assets.xcassets in Resources */,
 				D65F56372419F21500D8F2FE /* Main.storyboard in Resources */,
