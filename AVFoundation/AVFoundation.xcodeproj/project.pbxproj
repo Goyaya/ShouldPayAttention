@@ -15,6 +15,7 @@
 		D65F563F2419F21600D8F2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F563E2419F21600D8F2FE /* main.m */; };
 		D65F56482419F3F200D8F2FE /* AudioMixVolumeRampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F56472419F3F200D8F2FE /* AudioMixVolumeRampViewController.m */; };
 		D65F564B2419F54A00D8F2FE /* inputfile.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D65F564A2419F54A00D8F2FE /* inputfile.mp4 */; };
+		D65F564E2419F7D600D8F2FE /* ScaleTimeRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F564D2419F7D600D8F2FE /* ScaleTimeRangeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		D65F56462419F3F200D8F2FE /* AudioMixVolumeRampViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioMixVolumeRampViewController.h; sourceTree = "<group>"; };
 		D65F56472419F3F200D8F2FE /* AudioMixVolumeRampViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioMixVolumeRampViewController.m; sourceTree = "<group>"; };
 		D65F564A2419F54A00D8F2FE /* inputfile.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = inputfile.mp4; path = "../../../AVFoundation-AudioMix/AVFoundation-AudioMix/inputfile.mp4"; sourceTree = "<group>"; };
+		D65F564C2419F7D600D8F2FE /* ScaleTimeRangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleTimeRangeViewController.h; sourceTree = "<group>"; };
+		D65F564D2419F7D600D8F2FE /* ScaleTimeRangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleTimeRangeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 			children = (
 				D65F56462419F3F200D8F2FE /* AudioMixVolumeRampViewController.h */,
 				D65F56472419F3F200D8F2FE /* AudioMixVolumeRampViewController.m */,
+				D65F564C2419F7D600D8F2FE /* ScaleTimeRangeViewController.h */,
+				D65F564D2419F7D600D8F2FE /* ScaleTimeRangeViewController.m */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65F564E2419F7D600D8F2FE /* ScaleTimeRangeViewController.m in Sources */,
 				D65F56482419F3F200D8F2FE /* AudioMixVolumeRampViewController.m in Sources */,
 				D65F56342419F21500D8F2FE /* ViewController.m in Sources */,
 				D65F562E2419F21500D8F2FE /* AppDelegate.m in Sources */,

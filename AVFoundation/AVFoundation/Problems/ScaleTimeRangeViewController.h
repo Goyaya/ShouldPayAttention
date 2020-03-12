@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScaleTimeRangeViewController.h
 //  AVFoundation
 //
 //  Created by Gaoyang on 2020/3/12.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface ScaleTimeRangeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
